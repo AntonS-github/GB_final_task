@@ -1,6 +1,7 @@
 from Models.PackAnimalsABS import PackAnimalsABS
 
 
+
 class Donkeys(PackAnimalsABS):
     '''Класс ослы'''
 

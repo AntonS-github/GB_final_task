@@ -2,6 +2,7 @@ from mysql.connector import *
 from Database.DB_queries import *
 
 
+
 def create_db_human_friends(config):
     """Создать базу данных human_friends, таблицы и заполнить их данными"""
     try:

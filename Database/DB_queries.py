@@ -1,3 +1,4 @@
+
 # Создать базу данных Human_friends
 create_db_query = """
     DROP SCHEMA IF EXISTS Human_friends;

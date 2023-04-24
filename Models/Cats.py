@@ -1,6 +1,7 @@
 from Models.PetsABS import PetsABS
 
 
+
 class Cats(PetsABS):
     '''Класс кошки'''
 

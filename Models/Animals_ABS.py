@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 
+
 # Абстрактный класс 'Животные'
 class Animals(ABC):
     def __init__(self, name, birthday, command):

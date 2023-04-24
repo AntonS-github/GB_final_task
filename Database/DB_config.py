@@ -1,6 +1,7 @@
 from getpass import getpass
 
 
+
 def config_db_init():
     host = 'localhost'
     user = input('Enter the database server login: ')
