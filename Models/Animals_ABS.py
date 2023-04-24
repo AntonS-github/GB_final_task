@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 # Абстрактный класс 'Животные'
 class Animals(ABC):
     def __init__(self, name, birthday, command):
@@ -10,4 +11,3 @@ class Animals(ABC):
     @abstractmethod
     def print_animal(self):
         pass
-
