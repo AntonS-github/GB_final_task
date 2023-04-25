@@ -4,8 +4,8 @@ from Program.Models.PetsABS import PetsABS
 class Cats(PetsABS):
     '''Класс кошки'''
 
-    def __init__(self, name, birth_date, command):
-        super().__init__(name, birth_date, command)
+    def __init__(self, name, birthday, command):
+        super().__init__(name, birthday, command)
 
     def eat(self):
         """Кошка умеет есть"""
@@ -18,6 +18,5 @@ class Cats(PetsABS):
     def print_animal(self):
         """Распечатать свойства животного"""
         print(f'Кошка: кличка - {self.get_name()}, '
-              f'дата рождения - {self.get_birth_date()}, '
+              f'дата рождения - {self.get_birthday()}, '
               f'команды - {self.get_command()}')
-			  
