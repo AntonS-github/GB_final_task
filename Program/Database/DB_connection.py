@@ -3,7 +3,6 @@ from mysql.connector import *
 from mysql.connector import connection
 
 
-
 def create_connection():
     """Подключиться к серверу mysql"""
     try:

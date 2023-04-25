@@ -1,5 +1,4 @@
 from abc import abstractmethod
-
 from Program.Models.AnimalsABS import Animals
 
 

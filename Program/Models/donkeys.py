@@ -4,8 +4,8 @@ from Program.Models.PackAnimalsABS import PackAnimalsABS
 class Donkeys(PackAnimalsABS):
     '''Класс ослы'''
 
-    def __init__(self, name, birth_date, command):
-        super().__init__(name, birth_date, command)
+    def __init__(self, name, birthday, command):
+        super().__init__(name, birthday, command)
 
     def eat(self):
         """осёл умеет есть"""
@@ -18,5 +18,5 @@ class Donkeys(PackAnimalsABS):
     def print_animal(self):
         """Распечатать свойства животного"""
         print(f'осёл: кличка - {self.get_name()}, '
-              f'дата рождения - {self.get_birth_date()}, '
+              f'дата рождения - {self.get_birthday()}, '
               f'команды - {self.get_command()}')
